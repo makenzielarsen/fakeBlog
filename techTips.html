@@ -7,7 +7,71 @@
 </head>
 
 <body>
-    <h1>Cassidy Carter Supports</h1>
+    <header id="Header">
+        <img src="logo.jpg" id="Logo" />
+        <h3 id="MainName">Cassidy Carter Supports</h3>
+        <nav id="Navigation">
+            <a href="index.html" id="HomePageLink">Home</a>
+            <a href="techTips.html" id="TechTipsLink" style="text-decoration: none" ;>Tech Tips</a>
+            <a href="aboutMe.html" id="AboutMeLink">About Me!</a>
+        </nav>
+    </header>
+    <main>
+        <aside>
+            <h1 id="AsideTitle">
+                What is git?
+            </h1>
+            <p id="AsideText">
+                Git is version control system, which helps users track changes in files and back up these files. For further information
+                go ahead and read up
+                <a href="https://git-scm.com/">more about git</a>!
+            </p>
+        </aside>
+        <article>
+            <h1 id="GitCheatSheet">
+                Git Commands Cheatsheet!
+            </h1>
+            <h2>
+                Getting Set Up!
+            </h2>
+            <ol>
+                <li>
+                    <code> git init [project name] </code>. This command is one way to set up your project with git! This command creates a new local repository
+                    with a specified name. </li>
+                <li>
+                    <code> git clone [url] </code>. This command is another way of setting up your project with git. In this way your project will be downloaded
+                    with its entire verion history.</li>
+            </ol>
+            <h2>
+                Making changes...
+            </h2>
+            <ol>
+                <li>
+                    <code> git status </code>, this command will list all new or modified files to commit. </li>
+                <li>
+                    <code> git add [file] </code> or
+                    <code> git add . </code>, this adds a file or in the case of the dot it adds all changed or new files in their present state
+                    to be committed.
+                </li>
+                <li>
+                    <code> git commit -m "[descriptive message"] </code>, this is how to commit the changes you have added since the last commit. </li>
+            </ol>
+            <h2>
+                Review history and synchronize changes.
+            </h2>
+            <ol>
+                <li>
+                    <code> git log </code>, this command lists the version history on your current branch. </li>
+                <li>
+                    <code> git push </code>, this command uploads all the local branch commits to a site, i.e. GitHub </li>
+                <li>
+                    <code> git pull </code>, this command downloads bookmark history and incorporates changes. </li>
+            </ol>
+        </article>
+    </main>
+    <footer id="Footer">
+        <p>Copyright &copy; 2018 Makenzie Larsen (A02177261). All rights reserved. </p>
+    </footer>
 </body>
 
 </html>

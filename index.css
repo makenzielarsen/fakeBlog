@@ -6,28 +6,32 @@
     margin: 0px;
     padding: 30px;
 }
+
 #Logo {float: left; 
-    height: 50px; 
-    width: 50px;
+    height: 100px; 
+    width: 100px;
+    margin: 0px;
+    padding: 0px;
+    background-color: transparent;
+}
+
+#Header {
+    background-color: rgb(253, 173, 144);
+    height: 100px;
+    border-bottom: 1px solid coral;
     margin: 0px;
     padding: 0px;
 }
 
-#Header {
-    background-color: floralwhite;
-    height: 100px;
-    border-bottom: 3px solid floralwhite;
-    margin: 0px;
-    padding: 0px;
-}
 .flex-container {
     clear: both;
-    padding-top: 25px;
     display: flex;
+    flex: 25px;
     flex-direction: column-reverse;
     flex-wrap: nowrap;
     justify-content: space-between;
     margin-left: 400px;
+    clear: none;
 }
 
 *{
@@ -36,9 +40,27 @@
 }
 
 html, body {
-    background-color: coral;
+    background-color: rgb(255, 195, 172);
     margin: 0px;
     padding: 0px;
+}
+
+aside {
+    padding:10px;
+    height: 475px;
+    width: 250px;
+    float:left;
+    margin: 25px;
+    border: 1px solid coral;
+    background-color: rgb(253, 173, 144);
+    text-align: center;
+    color:gray;
+}
+
+#AsidePic {
+    height:100px;
+    width: 100px;
+    border-radius: 100px;
 }
 
 #Navigation {
@@ -62,34 +84,64 @@ html, body {
 }
 
 #Blog1 {
-    border: 3px gray dotted;
+    background-color: rgb(253, 216, 203);
+    border: 3px coral dotted;
     margin: 25px;
+    text-align: center
 }
 
 #Blog1Pic {
-    height: 300px;
+    height: 375px;
     width: 300px;
     margin: 10px;
+    float: left;
+}
+
+#Blog1Text {
+    color: gray;
+    padding: 5px;
 }
 
 #Blog2 {
-    border: 3px gray dotted;
+    background-color: rgb(253, 216, 203);
+    border: 3px coral dotted;
     margin: 25px;
+    text-align: center
 }
 
 #Blog2Pic {
-    height: 300px;
+    height: 375px;
     width: 300px;
     margin: 10px;
+    float: left;
+}
+
+#Blog2Text {
+    color: gray;
+    padding: 5px;
 }
 
 #Blog3 {
-    border: 3px gray dotted;
+    background-color: rgb(253, 216, 203);
+    border: 3px coral dotted;
     margin: 25px;
+    text-align: center
 }
 
 #Blog3Pic {
-    height: 300px;
+    height: 375px;
     width: 300px;
     margin: 10px;
+    float: left;
+}
+
+#Blog3Text {
+    color: gray;
+    padding: 5px;
+}
+
+#Footer {
+    color: gray;
+    padding: 5px;
+    text-align: center;
 }

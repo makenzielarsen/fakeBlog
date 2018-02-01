@@ -1,1 +1,60 @@
-h1 {text-align: center}
+#MainName {
+    text-align: left; 
+    font-family: 'Courier New', Courier, monospace;
+    color: gray;
+    margin-top: 10px;
+    margin: 0px;
+    padding: 30px;
+}
+#Logo {float: left; 
+    height: 100px; 
+    width: 100px;
+    margin: 0px;
+    padding: 0px;
+    background-color: transparent;
+}
+
+#Header {
+    background-color: rgb(253, 173, 144);
+    height: 100px;
+    border-bottom: 1px solid coral;
+    margin: 0px;
+    padding: 0px;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body {
+    background-color: rgb(255, 195, 172);
+    margin: 0px;
+    padding: 0px;
+}
+
+#Navigation {
+    text-align: right;
+    margin-right: 25px;
+}
+
+#HomePageLink {
+    padding: 10px;
+    color: gray;
+}
+
+#TechTipsLink {
+    padding: 10px;
+    color: gray;
+}
+
+#AboutMeLink {
+    padding: 10px;
+    color: gray;
+}
+
+#Footer {
+    color: gray;
+    padding: 5px;
+    text-align: center;
+}
