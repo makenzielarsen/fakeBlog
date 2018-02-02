@@ -23,8 +23,25 @@
     padding: 0px;
 }
 
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: gray;
+}
+
+a:hover {
+    color: black;
+    background-color: rgb(168, 168, 168);
+}
+
+a:active {
+    color: black;
+    background-color: white;
+}
+
 .flex-container {
-    clear: both;
     display: flex;
     flex: 25px;
     flex-direction: column-reverse;
@@ -70,17 +87,14 @@ aside {
 
 #HomePageLink {
     padding: 10px;
-    color: gray;
 }
 
 #TechTipsLink {
     padding: 10px;
-    color: gray;
 }
 
 #AboutMeLink {
     padding: 10px;
-    color: gray;
 }
 
 #Blog1 {

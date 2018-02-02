@@ -39,17 +39,17 @@ html, body {
     padding: 0px;
 }
 
-#AsideTitle {
+#GitBackgroundTitle {
     color: gray;
     margin-left: 100px;
 }
 
-#AsideText {
+#GitBackgroundText {
     color: gray;
     margin-left: 100px;
 }
 
-aside {
+#GitBackground {
     margin: 10px;
     height: 100px;
     background-image: url("git.png");
@@ -64,17 +64,79 @@ aside {
 
 #HomePageLink {
     padding: 10px;
-    color: gray;
 }
 
 #TechTipsLink {
     padding: 10px;
-    color: gray;
 }
 
 #AboutMeLink {
     padding: 10px;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
     color: gray;
+}
+
+a:hover {
+    color: black;
+    background-color: rgb(168, 168, 168);
+}
+
+a:active {
+    color: black;
+    background-color: white;
+}
+
+#GitCheatSheetHeader {
+    color: gray;
+    text-align: center;
+}
+
+h2 {
+    color: gray;
+    padding: 10px;
+}
+
+ol {
+    color: gray;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+#TechAF1 {
+    height: 250px;
+    width: 510px;
+}
+
+#TechAF2 {
+    height: 250px;
+    width: 250px;
+}
+
+#TechAF3 {
+    height: 250px;
+    width: 250px;
+}
+
+article {
+    clear: none;
+}
+
+aside {
+    padding:10px;
+    height: 710px;
+    width: 510px;
+    float:right;
+    margin: 25px;
+    border: 1px solid coral;
+    background-color: rgb(253, 173, 144);
+    text-align: center;
+    color:gray;
 }
 
 #Footer {

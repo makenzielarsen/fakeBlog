@@ -40,17 +40,36 @@ html, body {
 
 #HomePageLink {
     padding: 10px;
-    color: gray;
 }
 
 #TechTipsLink {
     padding: 10px;
-    color: gray;
 }
 
 #AboutMeLink {
     padding: 10px;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
     color: gray;
+}
+
+a:hover {
+    color: black;
+    background-color: rgb(168, 168, 168);
+}
+
+a:active {
+    color: black;
+    background-color: white;
+}
+
+#Portrait {
+    
 }
 
 #Footer {
