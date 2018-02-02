@@ -60,6 +60,7 @@ html, body {
 #Navigation {
     text-align: right;
     margin-right: 25px;
+    vertical-align: text-bottom;
 }
 
 #HomePageLink {
@@ -68,6 +69,7 @@ html, body {
 
 #TechTipsLink {
     padding: 10px;
+    text-decoration: none;
 }
 
 #AboutMeLink {
@@ -143,4 +145,5 @@ aside {
     color: gray;
     padding: 5px;
     text-align: center;
+    clear: both;
 }

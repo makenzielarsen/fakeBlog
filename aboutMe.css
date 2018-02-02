@@ -36,6 +36,7 @@ html, body {
 #Navigation {
     text-align: right;
     margin-right: 25px;
+    vertical-align: text-bottom;
 }
 
 #HomePageLink {
@@ -48,6 +49,7 @@ html, body {
 
 #AboutMeLink {
     padding: 10px;
+    text-decoration: none;
 }
 
 a:link {
@@ -69,11 +71,82 @@ a:active {
 }
 
 #Portrait {
-    
+    height: 250px;
+    width: 175px;
+    border-radius: 900px;
+    margin-right: 100px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    margin-left: 250px;
+    float: left;
+}
+
+h1 {
+    color: gray;
+    text-align: center;
+    margin: 10px;
+}
+
+article {
+    text-align: center;
+    padding:10px;
+    height: 400px;
+    width: 700px;
+    float: left;
+    margin: 25px;
+    border: 1px solid coral;
+    background-color: rgb(253, 173, 144);
+    text-align: center;
+    color:gray;
+}
+
+#BikingPic {
+    height: 300px;
+    width: 300px;
+}
+
+#HikingPic {
+    height: 300px;
+    width: 300px;
+}
+
+#TravelGearPic {
+    height: 300px;
+    width: 300px;
+}
+
+#TravelBookPic {
+    height: 300px;
+    width: 300px;
+}
+
+aside {
+    padding:10px;
+    height: 1250px;
+    width: 400px;
+    float:right;
+    margin: 25px;
+    border: 1px solid coral;
+    background-color: rgb(253, 173, 144);
+    text-align: center;
+    color:gray;
+}
+
+#Filler {
+    text-align: center;
+}
+
+#Camera {
+    text-align: center;
+    background-color: coral;
+    height: 475px;
+    width: 500px;
+    margin: 25px;
 }
 
 #Footer {
     color: gray;
     padding: 5px;
     text-align: center;
+    clear: both;
 }

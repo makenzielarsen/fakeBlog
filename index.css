@@ -83,10 +83,12 @@ aside {
 #Navigation {
     text-align: right;
     margin-right: 25px;
+    vertical-align: text-bottom;
 }
 
 #HomePageLink {
     padding: 10px;
+    text-decoration: none;
 }
 
 #TechTipsLink {
@@ -158,4 +160,5 @@ aside {
     color: gray;
     padding: 5px;
     text-align: center;
+    clear: both;
 }
